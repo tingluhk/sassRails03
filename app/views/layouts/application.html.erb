@@ -3,12 +3,18 @@
   <head>
     <title>SassRails03</title>
     <%= csrf_meta_tags %>
-
+    <%= stylesheet_link_tag 'https://fonts.googleapis.com/icon?family=Material+Icons' %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    
   </head>
 
   <body>
+    
+    
+    <span class="fslarge1 icon-angular"></span>
+    <i class="large material-icons">shop</i>
     <%= yield %>
   </body>
 </html>
