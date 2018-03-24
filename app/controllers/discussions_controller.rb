@@ -1,6 +1,9 @@
 class DiscussionsController < ApplicationController
   before_action :set_discussion, only: [:show, :edit, :update, :destroy]
 
+  def test01
+    @discussions = Discussion.all
+  end
   # GET /discussions
   # GET /discussions.json
   def index
