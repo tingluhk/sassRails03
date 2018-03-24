@@ -1,5 +1,4 @@
 # README
-
 Things you may want to cover:
 
 * Ruby version
@@ -18,5 +17,5 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* Some of Ruby syntax
+# Some of Ruby syntax
 <%= image_tag("wtf01.jpg", alt: "Edit Entry") %>
