@@ -18,4 +18,5 @@ Things you may want to cover:
 * Deployment instructions
 
 # Some of Ruby syntax
-<%= image_tag("wtf01.jpg", alt: "Edit Entry") %>
+- <%= image_tag("wtf01.jpg", alt: "Edit Entry") %>
+- #logo { background: url(<%= asset_data_uri 'logo.png' %>) }
