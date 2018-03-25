@@ -49,3 +49,9 @@ rake assets:precompile
 rake assets:clean
 this will force it to rebuild everything in the public/assets directory from scratch.
 ```
+
+
+- Page Specific Javascript With the Rails Asset Pipeline
+http://blog.seancarpenter.net/2012/11/05/page-specific-javascript-with-the-asset-pipeline/
+
+- to see the Precompiled SCSS, go to terminal run "rake assets:precompile" and the css will be at public/asset/sass-2!%J!@J@!$ file
