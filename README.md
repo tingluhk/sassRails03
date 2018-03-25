@@ -94,7 +94,12 @@ to include code sample use more than 4 space in
 
         }
 
+- Show gradient transitions with text
 
+        background-image: linear-gradient(to right, $color-txt-dark,$color-txt-light);
+        -webkit-background-clip: text;
+        color:transparent;
+        
 
 # Visual Studio Code ShortCuts
 - search for files name
