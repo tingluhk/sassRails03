@@ -1,6 +1,4 @@
 # README
-Things you may want to cover:
-
 * Ruby version
 
 * System dependencies
@@ -55,3 +53,15 @@ this will force it to rebuild everything in the public/assets directory from scr
 http://blog.seancarpenter.net/2012/11/05/page-specific-javascript-with-the-asset-pipeline/
 
 - to see the Precompiled SCSS, go to terminal run "rake assets:precompile" and the css will be at public/asset/sass-2!%J!@J@!$ file
+
+
+
+
+* Mark Down Syntax
+to include code sample use more than 4 space in
+        /* ----------- variables ----------- */
+        $color-primary:#f9ed69;
+        $color-secondary:#ffb120;
+        $color-tertiary:#ff11df;
+
+        $greenies: rgb(245, 70, 70)
