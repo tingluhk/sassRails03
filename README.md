@@ -65,3 +65,22 @@ to include code sample use more than 4 space in
         $color-secondary:#ffb120;
         $color-tertiary:#ff11df;
         $greenies: rgb(245, 70, 70)
+
+
+
+# SASS syntax
+- Mixins
+
+
+- function
+
+        @function divide01 ($a,$b){
+        @return $a/$b;
+        }
+
+
+
+
+# Visual Studio Code ShortCuts
+- search for files name
+  Ctrl+p or Ctrl+e
