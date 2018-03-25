@@ -59,9 +59,9 @@ http://blog.seancarpenter.net/2012/11/05/page-specific-javascript-with-the-asset
 
 * Mark Down Syntax
 to include code sample use more than 4 space in
+
         /* ----------- variables ----------- */
         $color-primary:#f9ed69;
         $color-secondary:#ffb120;
         $color-tertiary:#ff11df;
-
         $greenies: rgb(245, 70, 70)
