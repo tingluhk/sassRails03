@@ -79,6 +79,21 @@ to include code sample use more than 4 space in
         }
 
 
+- attribute selector
+
+        // select all class starting with col-
+        [class^="col-"]{
+
+        }
+        // all class has col-
+        [class*="col-"]{
+
+        }
+        // all class ends with col-
+        [class$="col-"]{
+
+        }
+
 
 
 # Visual Studio Code ShortCuts
