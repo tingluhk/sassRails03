@@ -12,4 +12,17 @@
 //
 //= require rails-ujs
 //= require turbolinks
+//= require jquery
+//= require materialize-sprockets
 //= require_tree .
+
+
+
+// for Materialize to work, each time the page loads, js needs to 'initialize' material elements, to make sure changing to a different url will fire this document ready, need to disable turbolinks as well. or better solution is use turbolinks to fire events.
+
+
+$( document ).on('turbolinks:load', function() {
+  console.log("It works on each visit!")
+  // initialize materialize div here
+  // $('select').material_select();
+})
