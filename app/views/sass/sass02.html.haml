@@ -1,0 +1,29 @@
+= stylesheet_link_tag "sass"
+
+.nav
+  %ul.navigation01
+    %li{:class => ''}
+      = link_to 'About Us', "#"
+    %li{:class => ''}
+      = link_to 'Pricing', "#"
+    %li{:class => ''}
+      = link_to 'Pricing', "#"
+  .buttons
+    = link_to "Sign up", "#", :class => "btn-main"
+    = link_to "Get a Quote", "#", :class => "btn-hot"
+
+%header.header01
+  .bg-img
+  .header01__logo-box
+    = image_tag "sass_logo_01.png", :class => "header01__logo"
+  .header01__text-box
+    %h1.heading-primary
+      %span.heading-primary--main Main Content
+      %span.heading-primary--sub Sub Content here
+    = link_to 'enter here', '#', :class => "btn btn--white btn--animated"
+
+
+%main
+  %section.section-about
+    %h2.heading-secondary Exciting tours for adventruous people
+

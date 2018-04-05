@@ -1,6 +1,4 @@
 # README
-Things you may want to cover:
-
 * Ruby version
 
 * System dependencies
@@ -49,3 +47,60 @@ rake assets:precompile
 rake assets:clean
 this will force it to rebuild everything in the public/assets directory from scratch.
 ```
+
+
+- Page Specific Javascript With the Rails Asset Pipeline
+http://blog.seancarpenter.net/2012/11/05/page-specific-javascript-with-the-asset-pipeline/
+
+- to see the Precompiled SCSS, go to terminal run "rake assets:precompile" and the css will be at public/asset/sass-2!%J!@J@!$ file
+
+
+
+
+# Mark Down Syntax
+to include code sample use more than 4 space in
+
+        /* ----------- variables ----------- */
+        $color-primary:#f9ed69;
+        $color-secondary:#ffb120;
+        $color-tertiary:#ff11df;
+        $greenies: rgb(245, 70, 70)
+
+
+
+# SASS syntax
+- Mixins
+
+
+- function
+
+        @function divide01 ($a,$b){
+        @return $a/$b;
+        }
+
+
+- attribute selector
+
+        // select all class starting with col-
+        [class^="col-"]{
+
+        }
+        // all class has col-
+        [class*="col-"]{
+
+        }
+        // all class ends with col-
+        [class$="col-"]{
+
+        }
+
+- Show gradient transitions with text
+
+        background-image: linear-gradient(to right, $color-txt-dark,$color-txt-light);
+        -webkit-background-clip: text;
+        color:transparent;
+        
+
+# Visual Studio Code ShortCuts
+- search for files name
+  Ctrl+p or Ctrl+e
